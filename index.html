@@ -1,11 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>文档标题</title>
+<title>刘江南的个人主页</title>
+<style type="text/css">
+	.paragraph { background-image: url(wufan.jpg);
+                 background-repeat: no-repeat;
+				 background-position:80% 50%;
+				 /*background-position:80% 95%*/
+				 filter:alpha(opacity:30); opacity:1;}
+</style>
+<!-- 取消超链接下的下划线 -->
+<style type="text/css">a {text-decoration: none}</style>
+	
 </head>
-<body>
-	<h1>我的第一个HTML页面</h1>
-	<p>我的第一个段落。</p>
+
+<body class="paragraph">
+	<div>
+		<center><h1>ACoder的个人主页</h1></center>
+		<marquee bgcolor="black" behavior="scroll">
+			<font color="white" size="+1">欢迎来到ACoder的个人主页！</font>
+		</marquee>
+	</div>
+	
+	<!-- 不知道下面这样放合不合理 -->
+	<!--center-->
+		<div>
+		<h2 align="left">个人简历</h2>
+		<table border="2" bordercolor="black">
+			<caption>ACoder的个人简历</caption>
+			<tr>
+				<th rowspan="2" align="left"><img src="wufan.jpg" height="200" width=""></img></th>
+				<th>姓名</th>
+				<td align="center">xxxx</td>
+				<th>性别</th>
+				<td align="center">男</td>
+			</tr>
+			<tr>
+				<th>政治面貌</th>
+				<td align="center">团员</td>
+				<th>出生日期</th>
+				<td align="center">1998-04-02</td>
+			</tr>
+			<tr>
+				<!-- <th><img src="悟饭.png" height="200" width=""></img></th> -->
+				<th colspan="5">兴趣爱好</th>
+			</tr>
+			<tr>
+				<td align="center">编程</td>
+				<td align="center">书法</td>
+				<td colspan="2" align="center">看武侠小说</td>
+				<td align="center">打羽毛球</td>
+			</tr>
+			
+		</table>
+	</div>
+	<br>
+	<div>
+		<h2>友情链接</h2>
+		
+		<a href="liujiangedouard@foxmail.com">邮箱</a>
+	</div>
+	<!--/center-->
+	<br><HR>
+	
+	
 </body>
 </html>
